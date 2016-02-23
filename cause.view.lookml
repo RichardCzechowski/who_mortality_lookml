@@ -8,6 +8,8 @@
   - dimension: code
     type: number
     sql: ${TABLE}.code
+    primary_key: true
+    hidden: true
 
   - dimension: detailed_list_numbers
     type: string
