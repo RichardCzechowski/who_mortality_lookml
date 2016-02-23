@@ -5,6 +5,7 @@
     primary_key: true
     type: string
     sql: ${TABLE}.id
+    hidden: true
 
   - dimension: cause
     type: string

@@ -4,6 +4,7 @@
   - dimension: country
     type: number
     sql: ${TABLE}.country
+    hidden: true
 
   - dimension: name
     type: string
